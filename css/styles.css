@@ -15,15 +15,30 @@ body {
 .nav__logo-span {
 	color: #2e2f42;
 }
-.font__body-medium{
+.font__body-medium {
 	font-weight: 500;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #2e2f42;
 }
-.font__body-medium:hover{
+.font__body-medium:hover {
 	color: #404bbf;
 }
-.font__body-medium:focus{
+.font__body-medium:focus {
+	color: #404bbf;
+}
+.contact-info {
+	font-style: normal;
+}
+.contact-info__link {
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+	
+}
+.contact-info__link:hover {
+	color: #404bbf;
+}
+.contact-info__link:focus {
 	color: #404bbf;
 }
