@@ -1,0 +1,51 @@
+body {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.32px;
+}
+
+.font__header-one {
+	font-weight: bold;
+	font-size: 56px;
+	letter-spacing: 2%;
+	line-height: 60px;
+}
+.font__header-two {
+	font-weight: bold;
+	font-size: 36px;
+	letter-spacing: 0.72px; /* 2% від 36px */
+}
+.font__header-three {
+	font-weight: 500; /* Medium */
+	font-size: 20px;
+	letter-spacing: 0.4px; /* 2% від 20px */
+}
+.font__small-text {
+	font-weight: 400; /* Regular */
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.48px; /* 4% від 12px = 0.48px */
+}
+.font__body-medium {
+	font-weight: 500; /* Medium */
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.32px; /* 2% від 16px */
+}
+.font__button-text {
+	font-weight: 500; /* Medium */
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.64px; /* 4% від 16px */
+    cursor: pointer
+}
+.font__link-text {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400; /* Regular */
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.48px; /* 4% від 12px */
+	text-decoration: underline;
+}

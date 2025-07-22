@@ -1,1 +1,1 @@
-# goit-markup-hw-02
+https://riky-droyg.github.io/HomeWork-GoIT/
