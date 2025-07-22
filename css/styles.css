@@ -21,7 +21,14 @@ body {
   color: #2e2f42;
 }
 
-/* Навігаційне меню */
+/* Навігація */
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 40px;
+}
+
 .nav-list {
   list-style: none;
   display: flex;
@@ -44,15 +51,18 @@ body {
   color: #404bbf;
 }
 
-/* Контактна інформація */
+/* Контакти */
 .contact-box {
   font-style: normal;
+  padding: 16px 40px;
 }
 
 .contact-list {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  gap: 24px;
 }
 
 .contact-link {
@@ -68,7 +78,7 @@ body {
   color: #404bbf;
 }
 
-/* Секція hero */
+/* Секція Hero */
 .hero-section {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -107,11 +117,12 @@ body {
 .features-list {
   list-style: none;
   padding: 0;
-  margin-top: 72px;
+  margin: 72px auto 0;
   display: flex;
   gap: 24px;
   justify-content: center;
   flex-wrap: wrap;
+  max-width: 1200px;
 }
 
 .feature-title {
