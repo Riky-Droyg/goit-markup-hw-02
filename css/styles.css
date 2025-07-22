@@ -51,3 +51,11 @@ body {
 	letter-spacing: 0.48px; /* 4% від 12px */
 	text-decoration: underline;
 }
+
+.team {
+  background-color: #F4F4FD;
+}
+
+.feature_item {
+  background-color: #FFFFFF;
+}
